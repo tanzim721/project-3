@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project-1</title>
+    <!-- bootstrap4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- font-family: 'Fira Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <!-- font-family: 'Satisfy', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- font-family: 'Dancing Script', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="max-width: 100%" class="container">
+        <header>
+            <nav class="navbar navbar-expand-sm">
+                <a href="#" class="navbar-brand">
+                    <i class="p-1 fas fa-biking fa-4x"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="navbar-icon fas fa-bars fa-2x"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#feedback" class="nav-link text-white">Home</a></li>
+                        <li class="nav-item"><a href="#am" class="nav-link text-white">About Me</a></li>
+                        <li class="nav-item "><a href="#la" class="nav-link text-white">Language</a></li>
+                        <li class="nav-item "><a href="#cm" class="nav-link text-white">Contact Me</a></li>
+                        <li class="nav-item "><a href="#ac" class="nav-link text-white">Audience Comments</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <section id="banner-section">        
+                <section>
+                    <div id="feedback">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <p class="pb-2">Sundarban picnic in 27 February, 2019-</p>
+                                            <img class="feedback-img d-block m-auto img-fluid rounded-circle" src="image/tanzim1.jpg" alt="tanzim1">
+                                            <h5 class="p-5">Tanzimul Islam</h5>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <p class="pb-2">Kolagachiya picnic in 28 February, 2019</p>
+                                            <img class="feedback-img d-block m-auto img-fluid rounded-circle" src="image/tanzim2.jpg" alt="tanzim1">
+                                            <h5 class="p-5">Tanzimul Islam</h5>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <p class="pb-2">Shat-ghombuj masque in 11 November, 2018</p>
+                                            <img class="feedback-img d-block m-auto img-fluid rounded-circle" src="image/DSC_0080.JPG" alt="tanzim1">
+                                            <h5 class="p-5">Tanzimul Islam</h5>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <p class="pb-2">Sundarban picnic in 11 November, 2018</p>
+                                            <img class="feedback-img d-block m-auto img-fluid rounded-circle" src="image/DSC_0183.JPG" alt="tanzim1">
+                                            <h5 class="p-5">Tanzimul Islam</h5>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" type="button" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" type="button" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-container d-flex justify-content-center align-items-center">
+                        <div class="banner-content text-center py-5">
+                            <h1>Tanzimul Islam</h1>
+                            <p>Wicked Boy</p>
+                            <hr class="hr-style">
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </header>
+        <main>
+            <div class="about" id="am">
+                <div class="jumbotron ">
+                    <div class="lang text-center">
+                        <h3 class="font-weidth-bolder pb-2 mt-0">About Me</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 media">
+                            <img style="height: 200px; width: 200px;" class="d-block m-auto img-fluid rounded-circle" src="image/tanzim1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <p class="mb-1">Hi!, I am Tanzim. My restriction in problem solving, although my contest ratting or problem solving skill are not too much, yet I enjoy it. Now at this moment I will try to develop web site. I went to best, so far I will make big project. </p>
+                            <a class="btn btn-primary mb-2" href="#learn" data-toggle="collapse">learn more</a>
+                            <div id="learn" class="collapse">
+                                <p>Problem solving skills are more importants in web development site. It's grow-up your brain and develop your logic. </p>
+                            </div>
+                            <div class="alert alert-primary p-2 m-0">
+                                <button class="close" data-dismiss="alert">&times;</button>
+                                It's my GitHub <a href="https://github.com/tanzim721" target="_blank"></a>
+                            </div>
+                            <div class="alert p-2 m-0 alert-light">
+                                <button class="close" data-dismiss="alert">&times;</button>
+                                It's my linkedin's  <a href="https://www.linkedin.com/in/tanzimul-islam-73083b190/" target="_blank">Learn more</a>
+                            </div>
+                            <div class="alert p-2 m-0 alert-dark">
+                                <button class="close" data-dismiss="alert">&times;</button>
+                                It's my instagram's  <a href="https://www.instagram.com/tanzimul6/" target="_blank">Learn more</a>
+                            </div>
+                            <table class="table table-bordered mt-2 table-dark text-center table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Qualification</th>
+                                        <th>Institution</th>
+                                        <th>Passing Year</th>
+                                        <th>Grade point</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>BSc in ICE</td>
+                                        <td>Pabna University of Science and Technology</td>
+                                        <td>2017-18</td>
+                                        <td>-/4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HSC</td>
+                                        <td>Tongi Government Collage</td>
+                                        <td>2017</td>
+                                        <td>4.67/5.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SSC</td>
+                                        <td>Nawab Habibullah Model School and Collage</td>
+                                        <td>2015</td>
+                                        <td>4.89/5.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="editorial-section bg-info" id="la">
+                <div class="lang text-center">
+                    <h3 class="font-weidth-bolder p-4 mt-0">Language</h3>
+                </div>
+                <div class="row px-3 pb-3">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img style="height: 100px; width: 110px;" class="card-img d-block m-auto pt-1" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="logo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text">HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!</p>
+                                <a class="card-link stretched-link" href="https://www.w3schools.com/html/" target="_blank">Visit more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img style="height: 100px; width: 110px;" class="card-img d-block m-auto rounded-circle pt-1" src="https://img.favpng.com/13/12/20/logo-cascading-style-sheets-html-css-design-and-build-web-sites-css-1-graphic-design-png-favpng-DFW4rjy45QuMiuj81hV2HhPU6.jpg" alt="logo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text">CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.This tutorial will teach you CSS from basic to advanced</p>
+                                <a class="card-link stretched-link" href="https://www.w3schools.com/css/default.asp" target="_blank">Visit more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img style="height: 100px; width: 110px;" class="card-img d-block m-auto pt-1" src="data:image/jpeg;base64,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" alt="logo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">JavaScript</h5>
+                                <p class="card-text">JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.JavaScript is easy to learn.</p>
+                                <a class="card-link stretched-link" href="https://www.w3schools.com/js/default.asp">Visit more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img style="height: 100px; width: 110px;" class="card-img d-block m-auto pt-1" src="https://seeklogo.com/images/E/ElePHPant_-_Mascot_PHP-logo-4C78D1AC4E-seeklogo.com.jpg" alt="logo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">PHP</h5>
+                                <p class="card-text">PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.PHP is a widely-used, free, and efficient.</p>
+                                <a class="card-link stretched-link" href="https://www.w3schools.com/php/default.asp">Visit more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="cm">
+                <div class="jumbotron ">
+                    <div class="lang text-center">
+                        <h3 class="font-weidth-bolder pb-4 mt-0">Contact Me</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 media">
+                            <iframe class="d-block m-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.5048753248466!2d89.27621125063557!3d24.013255184384185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe84f0ec23a72b%3A0x775d6cd53cbdad8b!2sPabna%20University%20of%20Science%20%26%20Technology!5e0!3m2!1sen!2sbd!4v1620720862608!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="col-lg-6">
+                            <form class="w-50 m-auto was-validated" action="">
+                                <div class="form-group">
+                                    <label for="fullname">Fullname</label>
+                                    <input class="form-control" type="text" name="fullname" required>
+                                    <div class="valid-feedback text-danger">Valid</div>
+                                    <div class="invalid-feedback">Please enter your fullname</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" type="text" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input class="form-control" type="text" name="subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" >message</label>
+                                    <textarea name="message" class="form-control" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="form-group text-center">
+                                    <input type="submit" class="btn btn-secondary" value="send">
+                                    <input type="reset" class="btn btn-secondary" value="reset">
+                                </div>
+                            </form>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment bg-light text-center mt-0" id="ac">
+                <div class="lang text-center">
+                    <h4 id="ac" class="font-weidth-bolder p-4">Audience Comments</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 p-3">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-2x fas fa-user-circle"></i>
+                            <p>It's really good, I think this site are more helpful for all contestent.</p>
+                            <footer class="blockquote-footer">
+                                Eva in <cite>github</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 p-3">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-2x fas fa-user-circle"></i>
+                            <p>Your code are more useful but <abbr style="cursor: pointer; text-decoration: underline;" title="bootstrap4">b4</abbr> are so less.</p>
+                            <footer class="blockquote-footer">
+                                Brokly in <cite>instagram</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 p-3">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-2x fas fa-user-circle"></i>
+                            <p>In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program.</p>
+                            <footer class="blockquote-footer">
+                                Lorem in <cite>linkedin</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div style="font-family: 'Montserrat', sans-serif;" class="bg-dark text-white p-3">
+                <p class="text-center">&copy; All right reserved by me</p>
+            </div>
+        </footer>
+    </div>
+    <!-- bootstrap js, jquery, popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
